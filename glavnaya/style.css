@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+/*---------header---------*/
+
+#header {
+    width: 100%;
+    position:fixed;
+    padding: 15px 0;
+    background: #FAD3CF;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.91);
+    margin-bottom: 50px;
+}
+.hero-gen img{
+    width: 310px;
+    height: 290px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav {
+    margin:0 -120px 0 60px ;
+}
+.nav a{
+    margin-left: 20px;
+    color: #000;
+}
+.header-btn {
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header-btn:hover{
+    background: #FAD3CF;
+}
+
+.btn_header{
+    background: #fff;
+    border: none;
+}
+/*---------header---------*/
+
+
+
+
+/*---------search---------*/
+
+#search {
+    padding: 80px 0;
+
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    margin-top: 150px;
+}
+
+/*---------search---------*/
+
+
+/*---------hero---------*/
+
+.title{
+    width: 400px;
+    height: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    color: #1D1D1D;
+}
+
+.hero-title {
+
+    display: flex;
+justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 6px;
+
+}
+.hero-gen {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+.title_eats{
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+.title_eats h5{
+    color: black;
+}
+.title_eats h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+/*---------hero---------*/
+
+
+/*---------uber---------*/
+
+#uber {
+    background: #262626;
+    padding: 40px 0;
+}
+
+.uber-width {
+    width: 100%;
+    background: grey;
+    height: 2px;
+    margin-top: 40px;
+}
+
+/*---------uber---------*/
+#footer{
+    width: 100%;
+    height:  250px;
+    background: #FAD3CF;
+    margin-top: 100px;
+}
+.logo_ img {
+    margin: 60px;
+}
+.items{
+    display: flex;
+    justify-content:space-around;
+}
+.select{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.select select{
+    Width:227px;
+    Height:40px;
+    color: #000;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 33px;
+}
+
+
+.about h3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 35px;
+    color: #000;
+}
+.select-item {
+    color: white;
+    font-size: 20px;
+}
+
+.select-item2 {
+    color: greenyellow;
+}
+.btn_footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.chapay{
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.select{
+    display: flex;
+    justify-content: space-between;
+}
+.header-general {
+    display: none;
+}
+
+.header-block {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.49);
+    position: fixed;
+    backdrop-filter: blur(5px);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-square {
+    width: 550px;
+    height: 350px;
+    border-radius: 400px;
+    background: #FAD3CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    animation: key .4s alternate linear;
+}
+@keyframes key {
+    0% {
+        transform: translateX(1200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+.header-square h1 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.header-square input {
+    width: 90%;
+    margin: 10px ;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-bottom:1px solid black;
+    outline: none;
+    background: transparent;
+}
+.header-square button {
+    width: 30%  ;
+    height: 45px;
+border-radius: 2px;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.header-square button:hover {
+    transform: scale(1.1);
+    background: #FAD3CF;
+    color: #FFFFFF;
+}

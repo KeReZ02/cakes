@@ -1,0 +1,34 @@
+@media (max-width:1440px ) {
+    .container {
+        width: 80%;
+    }
+}
+@media (max-width:1200px ) {
+
+}
+@media (max-width:1024px ) {
+
+}
+
+@media (max-width:992px ) {
+    .hero-title{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:768px ) {
+
+}
+@media (max-width:576px ) {
+
+}
+@media (max-width:414px ) {
+
+}
+@media (max-width:375px ) {
+
+}
+@media (max-width:320px ) {
+
+}
